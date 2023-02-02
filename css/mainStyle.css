@@ -9,13 +9,28 @@ body {
 }
 
 .container {
-  display: flex;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background: #83c8e4;
 }
 
-.main-gaim {
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80%;
+}
+
+.main-game {
+  width: 100vmin;
+  height: 100vmin;
+  display: grid;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+  border: 4px solid black;
 }
 
 .side-bar {

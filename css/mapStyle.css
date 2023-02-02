@@ -1,0 +1,27 @@
+.leaves {
+  background: url("/assets/leaves.webp") no-repeat center center/cover;
+}
+
+.trunck_tree {
+  background: url("/assets/trunck_tree.webp") no-repeat center center/cover;
+}
+
+.grass {
+  background: url("/assets/Grass_Block.webp") no-repeat center center/cover;
+}
+
+.dirt {
+  background: url("/assets/Dirt_.webp") no-repeat center center/cover;
+}
+
+.gravel {
+  background: url("/assets/Gravel_.webp") no-repeat center center/cover;
+}
+
+/* .sky {
+  background: #83c8e4;
+} */
+
+.sun {
+  background: #f9e419;
+}
