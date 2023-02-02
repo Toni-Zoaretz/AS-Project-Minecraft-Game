@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-  /* border: 1px solid red; */
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -21,17 +20,15 @@ body {
 }
 
 .side-bar {
-  border: 3px solid gray;
+  border: 3px solid #3b3838;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   width: 20%;
-  gap: 1.5rem;
+  gap: 1rem;
   background-color: #3b3838;
 }
 
 .trash {
-  border: 1px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,15 +38,20 @@ body {
 }
 
 .tool-box {
-  border: 1px solid pink;
+  border: 1px dotted white;
   width: 4.5rem;
   height: 4.5rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   color: white;
+  font-size: 0.9rem;
+  padding-left: 0.7rem;
+}
 
-  /* font-size: 0.9rem; */
+.tool-box:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 
 .tools-div {
@@ -61,29 +63,35 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .trash-amount {
-  border: 1px solid antiquewhite;
+  border: 1px solid white;
   text-align: center;
-  width: 4rem;
-  height: 4rem;
+  width: 3.3rem;
+  height: 3.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 800;
+  color: white;
+  cursor: pointer;
+}
+
+.trash-amount:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 
 .start-again {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
 }
 
-.main-screen {
-  border: 1px solid red;
+.return-main-screen {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,12 +105,28 @@ body {
   font-size: 0.9rem;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid white;
-  border: 1px solid purple;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-strat {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #3b3838;
+  font-weight: 800;
+  border: 1px solid #3b3838;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.all-btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
 }
 
 .pickaxe {
