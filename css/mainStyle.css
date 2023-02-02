@@ -15,9 +15,7 @@ body {
 }
 
 .main-gaim {
-  border: 2px solid blue;
   width: 80%;
-  display: flex;
 }
 
 .side-bar {
