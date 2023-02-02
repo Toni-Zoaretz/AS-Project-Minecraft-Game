@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-gaim {
+  border: 3px solid blue;
+  width: 80%;
+}
+
+.side-bar {
+  border: 3px solid gray;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 20%;
+  gap: 1.5rem;
+  background-color: #3b3838;
+}
+
+.trash {
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tool-box {
+  border: 1px solid pink;
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+
+  /* font-size: 0.9rem; */
+}
+
+.tools-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 800;
+}
+
+.trash-amount {
+  border: 1px solid antiquewhite;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+
+.start-again {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-screen {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  font-weight: 800;
+  font-size: 0.9rem;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  border: 1px solid purple;
+}
+
+.btn-strat {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pickaxe {
+  background: url("/assets/pickaxe.png") no-repeat center center/cover;
+}
+
+.shovel {
+  background: url("/assets/shovel.png") no-repeat center center/cover;
+}
+
+.axe {
+  background: url("/assets/axes.png") no-repeat center center/cover;
+}
