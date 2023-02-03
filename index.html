@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css/mainStyle.css" />
     <link rel="stylesheet" href="/css/mapStyle.css" />
+    <link rel="stylesheet" href="./css/materialStyle.css" />
     <title>MINECRAFT_GAME</title>
   </head>
   <body>
@@ -21,30 +22,31 @@
       </div>
       <div class="side-bar">
         <div class="tools-div">
-          <div class="tool-box pickaxe">Pickaxe</div>
-          <div class="tool-box shovel">Shovel</div>
-          <div class="tool-box axe">Axe</div>
+          <div class="tool-box pickaxe" id="pickaxe">Pickaxe</div>
+          <div class="tool-box shovel" id="shovel">Shovel</div>
+          <div class="tool-box axe" id="axe">Axe</div>
         </div>
         <div class="trash">
-          <div class="trash-amount">0</div>
-          <div class="trash-amount">0</div>
-          <div class="trash-amount">0</div>
+          <div class="trash-amount" id="dirt">0</div>
+          <div class="trash-amount" id="grass">0</div>
+          <div class="trash-amount" id="gravel">0</div>
         </div>
         <div class="trash">
-          <div class="trash-amount">0</div>
-          <div class="trash-amount">0</div>
-          <div class="trash-amount">0</div>
+          <div class="trash-amount" id="trunck_tree">0</div>
+          <div class="trash-amount" id="leaves">0</div>
+          <div class="trash-amount" id="flowers">0</div>
         </div>
         <div class="all-btn">
           <div class="start-again">
             <button class="btn btn-strat">START AGAIN</button>
           </div>
           <div class="return-main-screen">
-            <button class="btn">RETURN TO MAIN SCREEN</button>
+            <button class="btn btn-return-main">RETURN TO MAIN SCREEN</button>
           </div>
         </div>
       </div>
     </div>
   </body>
   <script src="/scripts/game.js"></script>
+  <script src="/scripts/gameMap.js"></script>
 </html>
