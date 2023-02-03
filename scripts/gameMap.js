@@ -1,3 +1,5 @@
+/// creating grid items dinamiclly
+
 const mainGame = document.querySelector(".main-game");
 
 function createMap(type, rowStart, rowEnd, columnStart, columnEnd) {
