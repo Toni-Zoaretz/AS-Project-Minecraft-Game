@@ -8,6 +8,9 @@ function createMap(type, rowStart, rowEnd, columnStart, columnEnd) {
       materialElement.style.gridColumnStart = column;
       materialElement.classList.add(`${type}`);
       mainGame.appendChild(materialElement);
+      materialElement.addEventListener("click", function (e) {
+        setDiv(e);
+      });
     }
   }
 }

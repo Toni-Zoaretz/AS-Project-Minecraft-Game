@@ -31,7 +31,7 @@ body {
   display: grid;
   grid-template-columns: repeat(21, 1fr);
   grid-template-rows: repeat(21, 1fr);
-  border: 2px dotted white;
+  /* border: 4px dotted rgb(225, 17, 17); */
   background: #83c8e4;
   cursor: pointer;
 }
