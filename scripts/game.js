@@ -22,16 +22,19 @@ function createMap(type, rowStart, rowEnd, columnStart, columnEnd) {
   }
 }
 
-createMap("sun", 2, 5, 2, 5);
-createMap("sun", 3, 4, 2, 5);
+createMap("sun", 2, 2, 2, 2);
+createMap("sun", 3, 3, 3, 3);
+createMap("sun", 2, 2, 3, 3);
+createMap("sun", 3, 3, 2, 3);
 createMap("dirt", 16, 21, 1, 21);
 createMap("grass", 15, 15, 1, 21);
 createMap("gravel", 12, 14, 18, 18);
 createMap("gravel", 13, 14, 3, 3);
 createMap("gravel", 14, 14, 11, 11);
 createMap("trunck_tree", 12, 14, 6, 6);
-createMap("trunck_tree", 11, 14, 15, 15);
-createMap("leaves", 11, 12, 20, 20);
+createMap("trunck_tree", 12, 14, 15, 15);
+createMap("leaves", 8, 11, 5, 7);
+createMap("leaves", 8, 11, 14, 16);
 
 // leaves;
 // trunck_tree;
