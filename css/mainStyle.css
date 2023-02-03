@@ -22,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 80%;
+  background: #383d48;
 }
 
 .main-game {
@@ -30,7 +31,9 @@ body {
   display: grid;
   grid-template-columns: repeat(21, 1fr);
   grid-template-rows: repeat(21, 1fr);
-  border: 4px solid black;
+  border: 2px dotted white;
+  background: #83c8e4;
+  cursor: pointer;
 }
 
 .side-bar {

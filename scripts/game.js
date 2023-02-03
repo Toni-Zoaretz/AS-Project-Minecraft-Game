@@ -35,6 +35,9 @@ createMap("trunck_tree", 12, 14, 6, 6);
 createMap("trunck_tree", 12, 14, 15, 15);
 createMap("leaves", 8, 11, 5, 7);
 createMap("leaves", 8, 11, 14, 16);
+createMap("flowers", 14, 14, 8, 8);
+createMap("flowers", 14, 14, 16, 16);
+createMap("flowers", 14, 14, 2, 2);
 
 // leaves;
 // trunck_tree;
