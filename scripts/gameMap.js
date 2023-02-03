@@ -1,7 +1,28 @@
 /// creating grid items dinamiclly
-
 const mainGame = document.querySelector(".main-game");
 
+///function to fill all emty dives
+
+function fillEmptyDivs(rowStart, rowEnd, columnStart, columnEnd) {
+  let emptyDive;
+  for (let row = rowStart; row <= rowEnd; row++) {
+    for (let column = columnStart; column <= columnEnd; ++column) {
+      const newDivs = document.createElement("div");
+      newDivs.style.gridRowStart = row;
+      newDivs.style.gridColumnStart = column;
+      mainGame.appendChild(newDivs);
+      emptyDive = newDivs;
+      newDivs.addEventListener("click", function (e) {
+        setDiv(e);
+        console.log(e.target);
+      });
+    }
+  }
+}
+
+fillEmptyDivs(1, 22, 1, 22);
+
+// function to creat map world
 function createMap(type, rowStart, rowEnd, columnStart, columnEnd) {
   for (let row = rowStart; row <= rowEnd; row++) {
     for (let column = columnStart; column <= columnEnd; ++column) {
@@ -12,6 +33,7 @@ function createMap(type, rowStart, rowEnd, columnStart, columnEnd) {
       mainGame.appendChild(materialElement);
       materialElement.addEventListener("click", function (e) {
         setDiv(e);
+        console.log(e);
       });
     }
   }

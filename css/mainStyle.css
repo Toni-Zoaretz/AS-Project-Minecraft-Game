@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  background: #83c8e4;
+  /* background: #83c8e4; */
 }
 
 .flex-box {
@@ -33,6 +33,7 @@ body {
   grid-template-rows: repeat(21, 1fr);
   /* border: 4px dotted rgb(225, 17, 17); */
   background: #83c8e4;
+
   cursor: pointer;
 }
 
@@ -126,7 +127,7 @@ body {
   cursor: pointer;
 }
 
-.btn-strat {
+.btn-start {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
 }
