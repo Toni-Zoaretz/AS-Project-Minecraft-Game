@@ -1,4 +1,4 @@
-// function to check which toll he used:
+// function to check which toll he used and events for tools:
 
 let currenTool = "";
 
@@ -15,10 +15,6 @@ pickaxe.addEventListener("click", function () {
 shovel.addEventListener("click", function () {
   currenTool = "Shovel";
   console.log(currenTool);
-});
-
-dirt.addEventListener("click", function () {
-  currenTool = "dirtTrash";
 });
 
 // functions to check if he use the right tool for the right item and remove it
@@ -63,6 +59,7 @@ function setDiv(e) {
     dirtCollection++;
     dirt.textContent = dirtCollection;
   }
+
   if (
     classList.length === 0 &&
     currenTool === "dirtTrash" &&
@@ -71,5 +68,54 @@ function setDiv(e) {
     classList.add("dirt");
     dirtCollection--;
     dirt.textContent = dirtCollection;
+  }
+
+  if (
+    classList.length === 0 &&
+    currenTool === "grassTrash" &&
+    grassCollection > 0
+  ) {
+    classList.add("grass");
+    grassCollection--;
+    grass.textContent = grassCollection;
+  }
+
+  if (
+    classList.length === 0 &&
+    currenTool === "gravelTrash" &&
+    gravelCollection > 0
+  ) {
+    classList.add("gravel");
+    gravelCollection--;
+    gravel.textContent = gravelCollection;
+  }
+
+  if (
+    classList.length === 0 &&
+    currenTool === "trunck_treeTrash" &&
+    trunckTreeCollection > 0
+  ) {
+    classList.add("trunck_tree");
+    trunckTreeCollection--;
+    trunck_tree.textContent = trunckTreeCollection;
+  }
+
+  if (
+    classList.length === 0 &&
+    currenTool === "flowersTrash" &&
+    flowersCollection > 0
+  ) {
+    classList.add("flowers");
+    flowersCollection--;
+    flowers.textContent = flowersCollection;
+  }
+  if (
+    classList.length === 0 &&
+    currenTool === "leavesTrash" &&
+    leavesCollection > 0
+  ) {
+    classList.add("leaves");
+    leavesCollection--;
+    leaves.textContent = leavesCollection;
   }
 }
