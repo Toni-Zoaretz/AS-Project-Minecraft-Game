@@ -13,6 +13,7 @@ function restart() {
   gravel.textContent = gravelCollection;
   grass.textContent = grassCollection;
   dirt.textContent = dirtCollection;
+  mainGame.innerHTML = "";
   fillEmptyDivs(1, 22, 1, 22);
   createMap("sun", 2, 2, 2, 2);
   createMap("sun", 3, 3, 3, 3);

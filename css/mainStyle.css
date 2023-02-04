@@ -109,9 +109,13 @@ body {
   padding: 1rem;
 }
 
-a {
+.btn-return-main a {
   text-decoration: none;
   color: white;
+}
+
+.btn-return-main:hover a {
+  color: #333;
 }
 
 .return-main-screen {
