@@ -1,4 +1,4 @@
-# 🪓Minecraft_Game
+# 🪓Minecraft Game
 
 I was given a task @AppleSeeds Bootcamp to to build responsive Minecraft Game.<br>
 I implement the Game using `HTML`,`CSS`,`JavaScript`.
