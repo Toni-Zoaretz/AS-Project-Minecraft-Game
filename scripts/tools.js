@@ -1,24 +1,4 @@
-// function to check which toll he used and events for tools:
-
-let currenTool = "";
-
-axe.addEventListener("click", function () {
-  currenTool = "Axe";
-  console.log(currenTool);
-});
-
-pickaxe.addEventListener("click", function () {
-  currenTool = "Pickaxe";
-  console.log(currenTool);
-});
-
-shovel.addEventListener("click", function () {
-  currenTool = "Shovel";
-  console.log(currenTool);
-});
-
-// functions to check if he use the right tool for the right item and remove it
-//function to collect the items to the correct trash box
+//function to collect the items to the correct trash box and also opstion to put it back in the world
 
 let dirtCollection = 0;
 let grassCollection = 0;

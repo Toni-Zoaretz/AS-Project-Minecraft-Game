@@ -13,10 +13,3 @@ const pickaxe = document.querySelector("#pickaxe"); //pikaxe
 console.log(pickaxe.textContent);
 const shovel = document.querySelector("#shovel"); //shovel
 console.log(shovel.textContent);
-
-//  start again btn function and inital ui
-
-// event for return main page
-// returnMainScreen.addEventListener("click", function () {});
-
-// event for new game

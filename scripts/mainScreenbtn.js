@@ -1,1 +1,0 @@
-returnMainScreen.addEventListener("click", function () {});
