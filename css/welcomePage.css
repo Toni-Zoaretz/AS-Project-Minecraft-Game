@@ -82,6 +82,11 @@ p {
   padding: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 349px) {
   body {
     display: none;

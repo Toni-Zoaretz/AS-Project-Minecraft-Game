@@ -109,6 +109,11 @@ body {
   padding: 1rem;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .return-main-screen {
   display: flex;
   justify-content: center;
