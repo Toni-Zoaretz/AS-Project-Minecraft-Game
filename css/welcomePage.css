@@ -8,28 +8,166 @@ body {
   height: 100vh;
   width: 100vw;
   background: url(/assets/welcome_photo.png) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 22rem;
-  padding-bottom: 22rem;
 }
 
 .btn-start-game {
   font-family: "Roboto", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   background-color: rgba(255, 255, 255, 0);
   color: white;
   cursor: pointer;
   font-weight: 800;
-  border: 3px dashed white;
+  border: 1px dashed rgba(255, 255, 255, 0);
   padding: 0.2rem 6rem;
 }
 
 .btn-start-game:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
+}
+
+.gaim-instractions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+p {
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-right: 3rem;
+}
+
+.tools-details {
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+}
+
+.tools-exp {
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.border {
+  border-bottom: 1px dotted white;
+  border-top: 1px dotted white;
+  width: 50rem;
+  padding: 1rem;
+}
+
+@media (max-width: 349px) {
+  body {
+    display: none;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 700px) {
+  body {
+    background: url(/assets/welcome_photo.png) no-repeat center center;
+    background-color: green;
+  }
+
+  .btn-start-game {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #333;
+  }
+
+  .title {
+    display: none;
+  }
+
+  p {
+    padding: 0px;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+  }
+
+  .border {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0);
+    border-top: 1px dotted rgba(255, 255, 255, 0);
+    width: 20rem;
+  }
+
+  .tools-exp {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .btn-start-game {
+    font-size: 2rem;
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #333;
+    margin-bottom: 10rem;
+  }
+
+  .border {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0);
+    border-top: 1px dotted rgba(255, 255, 255, 0);
+    width: 30rem;
+    margin-top: 0rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+  .welcome {
+    padding: 0px;
+  }
+
+  .btn-start-game {
+    font-size: 2.5rem;
+    font-weight: 900;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #333;
+    margin-bottom: 11rem;
+  }
+
+  .border {
+    margin-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1401px) {
+  body {
+    margin-top: 5rem;
+  }
+  .btn-start-game {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
 }
