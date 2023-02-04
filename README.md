@@ -18,6 +18,7 @@ https://www.youtube.com/watch?v=OtKK-GFa1ss&ab_channel=EricChukoltiansky
 ▶Pickaxe - for mining rocks.<br>
 ▶Shovel - for digging dirt and grass.<br>
 ▶you can also take back what you collect from the trash box and push it back in the word whenever you want.<br>
+▶When pressing the sun in became night mood <br>
 
 ### Screenshots
 
@@ -26,6 +27,8 @@ https://www.youtube.com/watch?v=OtKK-GFa1ss&ab_channel=EricChukoltiansky
 ![plot](/assets/main_game.png)
 
 ![plot](/assets/game_action.png)
+
+![plot](/assets/night_png.PNG)
 
 ### Deployment
 

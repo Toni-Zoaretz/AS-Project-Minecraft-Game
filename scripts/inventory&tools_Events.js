@@ -40,3 +40,14 @@ leaves.addEventListener("click", function () {
 flowers.addEventListener("click", function () {
   currenTool = "flowersTrash";
 });
+
+const sun = document.querySelectorAll(".sun");
+for (let i = 0; i <= 4; i++) {
+  sun[i].addEventListener("click", function () {
+    for (let j = 0; j <= 4; j++) {
+      sun[j].classList.toggle("sun");
+      sun[j].classList.toggle("moon");
+    }
+    mainGame.classList.toggle("drakSky");
+  });
+}
