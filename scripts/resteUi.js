@@ -31,4 +31,5 @@ function restart() {
   createMap("flowers", 14, 14, 8, 8);
   createMap("flowers", 14, 14, 16, 16);
   createMap("flowers", 14, 14, 2, 2);
+  mainGame.classList.remove("drakSky");
 }
