@@ -1,3 +1,4 @@
+"use strict";
 //events for trash box and tools:
 
 let currenTool = "";

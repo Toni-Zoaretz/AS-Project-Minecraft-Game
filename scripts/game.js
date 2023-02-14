@@ -1,3 +1,4 @@
+'use strict'
 // target all page elements
 const dirt = document.querySelector("#dirt"); //trash
 const grass = document.querySelector("#grass"); //trash

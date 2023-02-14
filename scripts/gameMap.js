@@ -1,3 +1,4 @@
+"use strict";
 /// creating grid items dinamiclly
 const mainGame = document.querySelector(".main-game");
 

@@ -1,3 +1,4 @@
+"use strict";
 startAgain.addEventListener("click", restart);
 
 function restart() {
